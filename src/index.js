@@ -12,11 +12,8 @@ $('.btn').on('click', () => {
   }, 1000);
 });
 // --- TOKEN DRAG -------
-$( function() {
+$(function () {
   $('.token').draggable();
-  drop: function( event, ui ) {
-    $(this ).text();
-  }
 });
 
 // ------- CHIBI ANIMATION-----
